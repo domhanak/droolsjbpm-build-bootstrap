@@ -276,6 +276,12 @@
 
     <version.io.prometheus>0.5.0</version.io.prometheus>
     <version.com.github.javaparser>3.10.2</version.com.github.javaparser>
+
+    <version.org.antlr.antlr4-runtime.4graphql>4.7.2</version.org.antlr.antlr4-runtime.4graphql>
+    <version.com.graphql-java.graphql-java>11.0</version.com.graphql-java.graphql-java>
+    <version.com.graphql-java-kickstart.graphql-java-tools>5.5.1</version.com.graphql-java-kickstart.graphql-java-tools>
+    <version.com.graphql-java.graphql-java-extended-scalars>1.0</version.com.graphql-java.graphql-java-extended-scalars>
+    <version.com.zhokov.graphql.graphql-java-datetime>1.5.1</version.com.zhokov.graphql.graphql-java-datetime>
   </properties>
 
   <repositories>
@@ -1964,6 +1970,28 @@
         <groupId>org.antlr</groupId>
         <artifactId>antlr4-runtime</artifactId>
         <version>${version.org.antlr4}</version>
+      </dependency>
+
+      <!-- dependencies for graphql -->
+      <dependency>
+        <groupId>com.graphql-java</groupId>
+        <artifactId>graphql-java</artifactId>
+        <version>${version.com.graphql-java.graphql-java}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.graphql-java-kickstart</groupId>
+        <artifactId>graphql-java-tools</artifactId>
+        <version>${version.com.graphql-java-kickstart.graphql-java-tools}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.graphql-java</groupId>
+        <artifactId>graphql-java-extended-scalars</artifactId>
+        <version>${version.com.graphql-java.graphql-java-extended-scalars}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.zhokhov.graphql</groupId>
+        <artifactId>graphql-java-datetime</artifactId>
+        <version>${version.com.zhokov.graphql.graphql-java-datetime}</version>
       </dependency>
 
       <dependency>
